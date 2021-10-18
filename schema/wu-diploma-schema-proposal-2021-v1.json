@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "type": "object",
+
+        "Student": {
+            "type": "object",
+            "@context": {
+
+                "studyProgram": {
+                    "type": "string"
+                },
+                "immatriculationNumber": {
+                    "type": "string"
+                },
+                "currentGivenName": {
+                    "type": "string"
+                },
+                "currentFamilyName": {
+                    "type": "string"
+                },
+                "dateOfBirth": {
+                    "type": "string",
+                    "format": "date"
+                },
+                "learningAchievement": {
+                    "type": "string"
+                },
+                "endedAtTime": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "iscedfCode": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+}
